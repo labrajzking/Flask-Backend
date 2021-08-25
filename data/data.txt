@@ -1,0 +1,8 @@
+How Pregnancies have you had  ?
+What's your average Glucose?
+What's your BloodPressure ?
+What's your SkinThickness ?
+How many  Insulin treatment  you did ?
+What's your	BMI ? 
+What is your average DiabetesPedigreeFunction?
+What's your age ? 

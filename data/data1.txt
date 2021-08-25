@@ -1,0 +1,7 @@
+What is your gender (1 male or 0 female) ?
+Were you on blood pressure medications (1 yes 0 no)? 
+Were you  hypertensive (1 yes 0 no)? 
+Did you have diabetes (1 yes 0 no)? 
+What is  your  systolic blood pressure  ?
+How many cigarettes do you smoke per day ?
+How old are you ?
