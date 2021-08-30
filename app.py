@@ -86,7 +86,6 @@ def get_bot_response_disease():
         #return str(bot.get_response(userText)) 
     except StopIteration:
         # exception will happen when iteration will over
-    
         probas=model_disease.predict_proba([np.array(user_info_disease[1:]).astype(np.int_)])
         user_info_disease.clear()
         return {"data":probas[0][1],"done":True}    

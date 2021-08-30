@@ -3,7 +3,7 @@
 import pandas as pd
 import numpy as np
 import pickle
-data=pd.read_csv(r"C:\Users\AYA LAJILI\Desktop\projet1\data\diabetes_data.csv")
+data=pd.read_csv(r"C:\Users\oussema\Downloads\Flask-Back-End\data\diabetes_data.csv")
 
 
 target_1 = data[data["Outcome"]==1]
@@ -32,6 +32,6 @@ logreg.fit(X_train,y_train)
 
 # Saving model to current directory
 # Pickle serializes objects so they can be saved to a file, and loaded in a program again later on.
-pickle.dump(logreg, open('model.pkl','wb'))
+pickle.dump(logreg, open('diabets.pkl','wb'))
 
 

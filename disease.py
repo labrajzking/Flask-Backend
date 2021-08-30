@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-data=pd.read_csv(r"C:\Users\AYA LAJILI\Desktop\projet1\data\disease.csv")
+data=pd.read_csv(r"C:\Users\oussema\Downloads\Flask-Back-End\disease.py")
 
 l=["male","BPMeds","prevalentHyp","diabetes","sysBP","cigsPerDay","age","TenYearCHD"]
 #"BPMeds","prevalentHyp","diabetes","sysBP","cigsPerDay","age"
